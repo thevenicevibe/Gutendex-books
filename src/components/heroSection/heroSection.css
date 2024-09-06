@@ -1,0 +1,47 @@
+.heroSectionWrapper{
+    position: relative;
+    background-color: var(--grey);
+}
+
+
+.heroSection{
+    min-height: 100vh;
+}
+
+.title-head{
+    background-image: url('../../assets/Pattern.svg');
+    height: 25vh;
+    width: 100%;
+    position: relative;
+}
+
+.hero-heading{
+    font-size: 48px !important;
+    font-weight: 600 !important;
+}
+
+.hero-subheading{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 12px;
+    /* line-height: 38px; */
+    color: var(--bg-black);
+}
+
+.categories{
+    background-color: var(--grey);
+   
+}
+
+@media all and (max-width: 767px){
+    .hero-heading{
+        font-size: 48px;
+        width: 250px;
+    }
+
+    .hero-subheading{
+        font-size: 16px;
+        margin: 12px;
+        font-weight: 500;
+    }
+}

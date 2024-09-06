@@ -1,0 +1,13 @@
+
+
+.ftitle{
+    font-size: 48px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.header-title{
+    background-color: var(--white);
+    margin-top: 30px;
+}
+

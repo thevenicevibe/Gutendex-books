@@ -1,0 +1,30 @@
+.book-card {
+    width: 80px;
+    border-radius: 8px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    text-align: center;
+    /* background-color: #fff; */
+    /* padding: 10px; */
+  }
+
+  
+  .book-cover {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+
+  .book-details {
+    margin-top: 10px;
+  }
+  
+  .book-details h5 {
+    color: var(--bg-black);
+    font-size: 16px;
+    margin: 10px 0 5px;
+  }
+  
+  .book-details p {
+    font-size: 14px;
+    color: var(--bg-black);
+  }

@@ -1,0 +1,30 @@
+.genre-card{
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0 2px 5px 0 rgba(211, 209, 238, 0.5);
+    height: 50px;
+    margin: 10px 0;
+    border-radius: 5px;
+    transition: rgba(211, 209, 238, 0.5) 0.3s;
+    background-color: var(--white);
+}
+
+.genre-card:hover{
+    background-color: rgba(211, 209, 238, 0.5);
+}
+
+.genre-logo {
+    width: 40px;
+    height: 40px;
+}
+
+.genre-name{
+
+    flex-grow: 1;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--bg-black);
+}
+

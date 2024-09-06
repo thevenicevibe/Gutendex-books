@@ -1,0 +1,18 @@
+@import './common/styles/fonts/fonts.css';
+@import "./common/styles/variables.css";
+@import "./common/styles/commonClasses.css";
+
+
+body{
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: grayscale;
+    box-sizing: border-box;
+    background-color: var(--transparent);
+    color: var(--blue);
+}
+
+code{
+    font-family: source-code-pro, Menlo,Monace,Consolas, 'Courier New',monospace;
+}
